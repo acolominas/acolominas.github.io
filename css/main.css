@@ -59,12 +59,13 @@
 /* Basic */
 
 	body, input, select, textarea {
-		color: #fff;
+		/*color: #fff;*/
+                color: #1f2e2e;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
-		line-height: 1.75em;
+		line-height: 2em;
 	}
 
 	body {
@@ -186,7 +187,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: #348cb2 url("images/bg.jpg") center;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
